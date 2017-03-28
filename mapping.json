@@ -1,0 +1,37 @@
+{
+  "mappings": {
+    "record": {
+      "properties": {
+	"color":{"type":"string","index":"analyzed"},
+	"director_name":{"type":"string","index":"not_analyzed"},
+	"num_critic_for_reviews":{"type":"long"},
+	"duration":{"type":"long"},
+	"director_facebook_likes":{"type":"long"},
+	"actor_3_facebook_likes":{"type":"long"},
+	"actor_2_name":{"type":"string","index":"not_analyzed"},
+	"actor_1_facebook_likes":{"type":"long"},
+	"gross":{"type":"double"},
+	"genres":{"type":"string"},
+	"actor_1_name":{"type":"string","index":"not_analyzed"},
+	"movie_title":{"type":"string"},
+	"num_voted_users":{"type":"long"},
+	"cast_total_facebook_likes":{"type":"long"},
+	"actor_3_name":{"type":"string","index":"not_analyzed"},
+	"facenumber_in_poster":{"type":"long"},
+	"plot_strings":{"type":"string"},
+	"movie_imdb_link":{"type":"string"},
+	"num_user_for_reviews":{"type":"long"},
+	"language":{"type":"string"},
+	"country":{"type":"string"},
+	"content_rating":{"type":"string","index":"not_analyzed"},
+	"budget":{"type":"long"},
+	"title_year":{"type":"long"},
+	"actor_2_facebook_likes":{"type":"long"},
+	"imdb_score":{"type":"double"},
+	"aspect_ratio":{"type":"double"},
+	"movie_facebook_likes":{"type":"long"}
+
+      }
+    }
+  }
+}
